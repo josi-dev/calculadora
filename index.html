@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portrait.css">
+    <meta name="theme-color" content="#9a15ff">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="conteiner">
+        <div id="tela">
+            <legend id="dados"></legend>
+        </div>
+        
+        <div id="boxBotoes">
+            <div id="botoes_esquerdo">
+                
+                <div class="boxNumeros">
+                    <p onclick="num('1')">1</p>
+                    <p onclick="num('2')">2</p>
+                    <p onclick="num('3')">3</p>
+                </div>
+                
+                <div class="boxNumeros">
+                    <p onclick="num('4')">4</p>
+                    <p onclick="num('5')">5</p>
+                    <p onclick="num('6')">6</p>
+                </div>
+                
+                <div class="boxNumeros">
+                    <p onclick="num('7')">7</p>
+                    <p onclick="num('8')">8</p>
+                    <p onclick="num('9')">9</p>
+                </div>
+                
+                <div class="boxNumeros">
+                    <p onclick="num('0')">0</p>
+                    <p onclick="num('.')">.</p>
+                </div>
+                
+                </div>
+                
+            <div id="botoes_direito">
+                
+                <div id="botoes_matematicos">
+                    <div class="boxOperadores">
+                    <p onclick="somar()">+</p>
+                    <p onclick="subtrair()">-</p>
+                    </div>
+                    
+                    <div class="boxOperadores">
+                    <p onclick="multiplicar()">×</p>
+                    <p onclick="dividir()">÷</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="boxOperadores">
+                    <p onclick="res()">=</p>
+                    <p onclick="limpar()">Del</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
