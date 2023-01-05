@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchqKOa8jWyTfmxfoLb_wOChczLVJ7zWv7oQ&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conteiner {
+    border: 3px solid #b70062;
+    border-radius: 3px;
+}
+
+#tela {
+    border-bottom: 2px solid #240ebe;
+    height: 23vh;
+}
+
+legend {
+    font-size: 10vw;
+    text-align: right;
+    color: #f92aff;
+}
+
+#boxBotoes {
+    display: flex;
+}
+
+#botoes_esquerdo {
+    display: grid;
+    width: 65vw;
+    border-right: 1px solid #240ebe;
+}
+
+#botoes_direito {
+    border-left: 1px solid #240ebe;
+}
+
+#botoes_esquerdo p {
+    width: 14vw;
+    height: 6vh;
+    display: inline-block;
+    text-align: center;
+    font-size: 140%;
+    border-radius: 3px;
+    line-height: 6vh;
+    border: 2px solid #240ebe;
+    color: #f92aff;
+}
+
+#botoes_matematicos {
+    display: grid;
+    justify-content: space-between;
+}
+
+#botoes_matematicos p {
+    display: inline-block;
+    font-size: 140%;
+    border: 2px solid #240ebe;
+    width: 14vw;
+    text-align: center;
+    border-radius: 3px;
+    color: #f92aff;
+}
+
+.boxOperadores {
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 140%;
+    margin-top: -2vh;
+}
+
+.boxNumeros {
+    justify-content: space-around;
+    display: flex;
+}
+
+p:hover {
+    background-color: #0f105d;
+    color: white;
+}
+
+.boxOperadores p {
+    border: 2px solid #240ebe;
+    height: 6vh;
+    width: 14vw;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 6vh;
+    color: #f92aff;
+}
