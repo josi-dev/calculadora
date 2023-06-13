@@ -1,3 +1,7 @@
+* {
+    font-family: arial;
+}
+
 body {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchqKOa8jWyTfmxfoLb_wOChczLVJ7zWv7oQ&usqp=CAU');
     background-size: cover;

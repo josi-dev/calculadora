@@ -1,0 +1,76 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, black, blue);
+}
+#conteiner {
+    border: 2px solid #f92aff;
+    width: 45vw;
+}
+
+#tela {
+    border-bottom: 2px solid #f92aff;
+    height: 20vh;
+    text-align: right;
+}
+
+#dados {
+    font-size: 3vw;
+}
+
+#boxBotoes {
+    display: flex;
+}
+
+#botoes_esquerdo {
+    display: grid;
+    
+    width: 30vw;
+}
+
+#botoes_direito {
+    border-left: 1px solid #f92aff;
+    width: 40%;
+}
+
+#botoes_direito p {
+    width: 5vw;
+    height: 9vh;
+    text-align: center;
+    line-height: 8vh;
+    border-radius: 7px;
+    border: 2px solid green;
+}
+
+#botoes_esquerdo p {
+    width: 5vw;
+    height: 9vh;
+    text-align: center;
+    border: 2px solid green;
+    line-height: 8vh;
+    border-radius: 7px;
+}
+
+.boxNumeros {
+    display: flex;
+    justify-content: space-around;
+}
+
+#botoes_matematicos {
+    display: grid;
+    
+}
+
+.boxOperadores {
+    display: flex;
+    justify-content: space-around;
+}
+
+legend, p {
+    color: green;
+}
